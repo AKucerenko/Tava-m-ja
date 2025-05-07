@@ -1,5 +1,4 @@
 
-// --- Логин (модальное окно) ---
 const openModal = document.getElementById('openModal');
 const modal = document.getElementById('modal');
 
@@ -13,7 +12,6 @@ if (openModal && modal) {
     });
 }
 
-// --- Валидация формы заявки ---
 const form = document.getElementById('applicationForm');
 if (form) {
     form.addEventListener('submit', function (e) {
@@ -41,7 +39,6 @@ if (form) {
     });
 }
 
-// --- Галерея: Lightbox для изображений ---
 const galleryItems = document.querySelectorAll('.gallery-item img');
 const lightbox = document.getElementById('lightbox');
 const lightboxImg = document.getElementById('lightbox-img');
